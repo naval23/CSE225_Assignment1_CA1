@@ -9,14 +9,16 @@
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="411dp"
-        android:layout_height="566dp"
+        android:layout_width="370dp"
+        android:layout_height="551dp"
         android:layout_gravity="center"
-        android:textSize="30dp"
+        android:textSize="40dp"
+        android:textColor="@color/teal_200"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
