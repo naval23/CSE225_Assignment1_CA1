@@ -84,7 +84,7 @@ class MainActivity2 : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW)
             intent.setData(Uri.parse("https://www.google.com/"))
             startActivity(intent)
-            Toast.makeText(applicationContext, "User", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "Opening Google", Toast.LENGTH_LONG).show()
             return true
         }
         else if (id == R.id.notification)
