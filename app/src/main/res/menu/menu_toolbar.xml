@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ToolBarExample">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Setting"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/alarm"
+        android:orderInCategory="2"
+        android:title="Alarm Manager"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_email"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="2"
+        android:title="Email"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_screen_search"
+        android:orderInCategory="3"
+        android:title="User"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_baseline_notifications"
+        android:orderInCategory="3"
+        android:title="Notification"
+        app:showAsAction="always" />
+</menu>
