@@ -136,9 +136,9 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="550dp"
-        android:textColor="#E91E63"
+        android:layout_height="70dp"
+        android:layout_marginTop="535dp"
+        android:textColor="#F3DC17"
         android:textSize="25dp"
         android:textStyle="bold" />
 
