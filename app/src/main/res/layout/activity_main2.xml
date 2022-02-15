@@ -26,7 +26,7 @@
         android:layout_height="63dp"
         android:layout_marginTop="55dp"
         android:gravity="center"
-        android:text="Product Ratings"
+        android:text="Product Rating"
         android:textAlignment="center"
         android:textColor="#FFC107"
         android:textSize="35dp"
